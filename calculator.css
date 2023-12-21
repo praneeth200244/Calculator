@@ -1,0 +1,62 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#calculator-outer {
+  border: 2px solid rgb(112, 111, 109);
+  border-radius: 10px;
+  width: 25%;
+}
+
+.display-screen {
+  margin: 0.5rem 0.5rem;
+  border: 1px solid rgb(189, 183, 183);
+  border-radius: 5px;
+  padding: 0.5rem 0.5rem;
+  width: 90%;
+  font-size: 2.5rem;
+}
+
+.heading {
+  text-transform: uppercase;
+  text-align: center;
+  background-color: rgb(187, 183, 183);
+  margin: 0.25rem 0.55rem;
+  font-size: 1.5rem;
+  border: 2px solid aquamarine;
+  border-radius: 10px;
+  padding: 0.05rem 0.25rem;
+}
+
+.heading h1 {
+  margin: 0;
+}
+
+.content {
+  margin: 0.25rem 0.55rem;
+  font-size: 1.5rem;
+  border: 2px solid rgb(89, 96, 95);
+  border-radius: 10px;
+  padding: 0.05rem 0.25rem;
+}
+
+.button-container {
+  margin: 0.5rem 0.5rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+button {
+  background-color: rgb(187, 183, 183);
+  border-radius: 50%;
+  width: 71px;
+  height: 75px;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
